@@ -1,0 +1,6 @@
+create_table("offers") {
+    t.Column("id", "uuid", {primary: true})
+    t.Column("client_id", "uuid", {})
+    t.Column("description", "text", {})
+    t.Column("industry", "string", {})
+}

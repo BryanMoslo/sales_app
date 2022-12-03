@@ -1,0 +1,6 @@
+create_table("sales") {
+    t.Column("id", "uuid", {primary: true})
+    t.Column("offer_id", "uuid", {})
+    t.Column("team_id", "uuid", {})
+    t.Column("price", "decimal", {})
+}

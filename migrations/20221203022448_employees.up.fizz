@@ -1,0 +1,8 @@
+create_table("employees") {
+    t.Column("id", "uuid", {primary: true})
+    t.Column("team_id", "uuid", {})
+    t.Column("first_name", "string", {})
+    t.Column("last_name", "string", {})
+    t.Column("role", "string", {})
+    t.Column("rate", "decimal", {})
+}
